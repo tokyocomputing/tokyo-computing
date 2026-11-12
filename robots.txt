@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tokyocomputing.jp/sitemap.xml
+Sitemap: https://www.tokyocomputing.jp/sitemap.xml
