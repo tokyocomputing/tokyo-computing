@@ -252,7 +252,7 @@ nav.scrolled {
   font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 300;
   letter-spacing: 0.06em;
-  line-height: 1.1;
+  line-height: 1.2;
   color: var(--text-primary);
   margin-bottom: 0.3em;
   opacity: 0;
@@ -260,12 +260,15 @@ nav.scrolled {
 }
 
 .hero-title span {
-  display: block;
+  display: inline;
   background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--gold-dim) 100%);
   color: var(--gold);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  padding: 0.1em 0;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .hero-subtitle {
